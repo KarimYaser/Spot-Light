@@ -1,0 +1,20 @@
+.photo {
+    max-width: 100%;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.dash {
+    position: relative;
+    padding-left: 20px;
+}
+
+.dash::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 18px;
+    background-color: rgb(126, 120, 120);
+    left: 0;
+}

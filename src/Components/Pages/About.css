@@ -1,0 +1,12 @@
+.img {
+    rotate: 5deg;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+}
+
+Typography {
+    font-family: 'Poppins', sans-serif !important;
+
+}

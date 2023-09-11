@@ -1,0 +1,1 @@
+export const HeaderLinks = ["About", "Articles", "Projects", "Speaking", "Uses"]

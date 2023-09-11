@@ -1,0 +1,26 @@
+.footer {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.LinksHolder {
+    /* text-align: left; */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+
+.link {
+    padding: 0px 5px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 5px;
+}
+
+.link:hover {
+    color: aqua;
+}

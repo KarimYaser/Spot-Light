@@ -17,7 +17,7 @@ function About() {
   return (
     <Container>
       <Box>
-        <img className="img" src="src\assets\about.webp" />
+        <img className="img" src="assets\about.webp" />
       </Box>{" "}
       <Typography sx={{ mt: 5, fontSize: 40, fontWeight: 800, mb: 2 }}>
         I'm Spencer Sharp. I live in New York City, where I design the future.

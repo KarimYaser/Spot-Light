@@ -1,7 +1,7 @@
-import stars from '../../assets/04.svg'
-import Airbnb from '../../assets/05.svg'
-import Facebook from '../../assets/06.svg'
-import StarBucks from '../../assets/07.svg'
+import stars from '../../../assets/04.svg'
+import Airbnb from '../../../assets/05.svg'
+import Facebook from '../../../assets/06.svg'
+import StarBucks from '../../../assets/07.svg'
 export const workList = [
     {
         icon: `${stars}`,

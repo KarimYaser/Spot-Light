@@ -170,7 +170,7 @@ function Header() {
           }}
         >
           <Link to={"/home"}>
-            <img className="photo" src="src\assets\02.jpg" />
+            <img className="photo" src="assets\02.jpg" />
           </Link>
         </IconButton>
       </section>

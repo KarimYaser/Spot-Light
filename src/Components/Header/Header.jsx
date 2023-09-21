@@ -91,7 +91,22 @@ function Header() {
               {HeaderLinks.map((item) => {
                 return (
                   <>
-                    <MenuItem onClick={handleClose}>{item}</MenuItem>
+                    <MenuItem onClick={handleClose}>
+                      <Link
+                        sx={{
+                          textDecoration: "none",
+                          fontSize: 15,
+                          fontWeight: "500",
+                          ":hover": { color: "aqua" },
+                          transition: "0.3s",
+                          color: theme.palette.text.primary,
+                        }}
+                        className="link"
+                        to={`/${item}`}
+                      >
+                        {item}
+                      </Link>
+                    </MenuItem>
                   </>
                 );
               })}

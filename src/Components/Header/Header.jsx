@@ -185,7 +185,10 @@ function Header() {
           }}
         >
           <Link to={"/home"}>
-            <img className="photo" src="assets\02.jpg" />
+            <img
+              className="photo"
+              src="https://res.cloudinary.com/dj841loep/image/upload/v1695300651/02_dojuur.jpg"
+            />
           </Link>
         </IconButton>
       </section>

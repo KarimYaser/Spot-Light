@@ -62,7 +62,7 @@ function Header() {
               sx={{
                 // @ts-ignore
                 boxShadow: `1px 3px ${theme.palette.shadow.main}`,
-                color: theme.palette.text.secondary,
+                color: theme.palette.text.primary,
                 borderRadius: "50px",
                 bgcolor: theme.palette.bg.secondary,
                 ":hover": {

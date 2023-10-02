@@ -93,18 +93,25 @@ function Header() {
                   <>
                     <MenuItem onClick={handleClose}>
                       <Link
+                        to={`/${item}`}
                         sx={{
-                          textDecoration: "none",
                           fontSize: 15,
                           fontWeight: "500",
                           ":hover": { color: "aqua" },
                           transition: "0.3s",
-                          color: theme.palette.text.primary,
                         }}
                         className="link"
-                        to={`/${item}`}
                       >
-                        {item}
+                        <a
+                          className="linkCollapsed"
+                          href=""
+                          style={{
+                            color: theme.palette.text.primary,
+                            textDecoration: "none",
+                          }}
+                        >
+                          {item}
+                        </a>
                       </Link>
                     </MenuItem>
                   </>

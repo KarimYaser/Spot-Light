@@ -45,6 +45,7 @@
     color: aqua;
 }
 
+
 @media (min-width:600px) {
     .MenuLinks {
         display: none;
